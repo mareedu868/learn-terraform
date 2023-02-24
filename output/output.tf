@@ -1,3 +1,3 @@
 output "sample" {
-  value="Welcome to Terraform"
+  xyz="Welcome to Terraform"
 }
