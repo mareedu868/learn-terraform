@@ -32,5 +32,5 @@ variable "sample4" {
 }
 
 output "types" {
-  value="variable from sample2 - ${var.sample2}, first value in list -${var.sample3[0]}, name in map -${var.sample4[name]}"
+  value="variable from sample2 - ${var.sample2}, first value in list -${var.sample3[0]}, name in map -${var.sample4["name"]}"
 }
