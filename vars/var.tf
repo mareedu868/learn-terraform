@@ -3,7 +3,6 @@ variable "sample" {
 }
 
 output "sample" {
-  value=var.sample
   value=var.sample1
 }
 
